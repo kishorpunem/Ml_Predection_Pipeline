@@ -1,0 +1,109 @@
+{
+    "modelType": "<class 'sklearn.ensemble._forest.RandomForestRegressor'>",
+    "evaluationMetrics": {
+        "MSE": 1828617.3734687746,
+        "R2Score": 0.8897963097444694
+    },
+    "predictionResults": [
+        {
+            "recordId": 0,
+            "predictedRatePerAsset": 1416.868620967742,
+            "actualRatePerAsset": 1136.3
+        },
+        {
+            "recordId": 1,
+            "predictedRatePerAsset": 1067.6296394736842,
+            "actualRatePerAsset": 504.0
+        },
+        {
+            "recordId": 2,
+            "predictedRatePerAsset": 2394.0,
+            "actualRatePerAsset": 2400.0
+        },
+        {
+            "recordId": 3,
+            "predictedRatePerAsset": 2074.9568535708586,
+            "actualRatePerAsset": 2200.0
+        },
+        {
+            "recordId": 4,
+            "predictedRatePerAsset": 2394.0,
+            "actualRatePerAsset": 2400.0
+        },
+        {
+            "recordId": 5,
+            "predictedRatePerAsset": 2639.354307303432,
+            "actualRatePerAsset": 2100.0
+        },
+        {
+            "recordId": 6,
+            "predictedRatePerAsset": 19786.60064934967,
+            "actualRatePerAsset": 20216.2
+        },
+        {
+            "recordId": 7,
+            "predictedRatePerAsset": 712.5205183333333,
+            "actualRatePerAsset": 700.0
+        },
+        {
+            "recordId": 8,
+            "predictedRatePerAsset": 2950.508551282054,
+            "actualRatePerAsset": 3342.95
+        },
+        {
+            "recordId": 9,
+            "predictedRatePerAsset": 10168.551713564217,
+            "actualRatePerAsset": 5200.0
+        },
+        {
+            "recordId": 10,
+            "predictedRatePerAsset": 1682.546644080557,
+            "actualRatePerAsset": 1400.0
+        },
+        {
+            "recordId": 11,
+            "predictedRatePerAsset": 1682.546644080557,
+            "actualRatePerAsset": 2100.0
+        },
+        {
+            "recordId": 12,
+            "predictedRatePerAsset": 1682.546644080557,
+            "actualRatePerAsset": 1400.0
+        },
+        {
+            "recordId": 13,
+            "predictedRatePerAsset": 1682.546644080557,
+            "actualRatePerAsset": 1850.0
+        },
+        {
+            "recordId": 14,
+            "predictedRatePerAsset": 3808.695,
+            "actualRatePerAsset": 3000.0
+        },
+        {
+            "recordId": 15,
+            "predictedRatePerAsset": 3800.0,
+            "actualRatePerAsset": 3800.0
+        },
+        {
+            "recordId": 16,
+            "predictedRatePerAsset": 2915.9028571428566,
+            "actualRatePerAsset": 3000.0
+        },
+        {
+            "recordId": 17,
+            "predictedRatePerAsset": 3707.479722222222,
+            "actualRatePerAsset": 5500.0
+        },
+        {
+            "recordId": 18,
+            "predictedRatePerAsset": 4315.829174290909,
+            "actualRatePerAsset": 1800.0
+        },
+        {
+            "recordId": 19,
+            "predictedRatePerAsset": 3472.2195075757572,
+            "actualRatePerAsset": 4000.0
+        }
+    ]
+}
