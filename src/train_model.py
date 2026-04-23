@@ -1,5 +1,6 @@
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
+from src.utils.logger import logger
 
 def train_model(df):
 
@@ -12,7 +13,11 @@ def train_model(df):
 
     model = RandomForestRegressor()
 
+    logger.info("Training started")
+
     model.fit(X_train, y_train)
+
+    logger.info("Training completed successfully")
 
     print("Model trained successfully")
 

@@ -6,7 +6,22 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-model_path = os.path.join(BASE_DIR, "models", "model.pkl")
+# Find latest model automatically
+model_dir = os.path.join(BASE_DIR, "models")
+
+model_files = [f for f in os.listdir(model_dir) if f.endswith(".pkl")]
+model_files.sort(reverse=True)
+
+latest_model = model_files[0]
+
+model_path = os.path.join(model_dir, latest_model)
+
+# Load model
+with open(model_path, "rb") as f:
+    model = pickle.load(f)
+
+print(f"Model loaded successfully: {latest_model}")
+
 data_path = os.path.join(BASE_DIR, "data", "clean_data", "clean_data.csv")
 
 # Load model
