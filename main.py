@@ -4,12 +4,14 @@ from src.feature_engineering import feature_engineering
 from src.train_model import train_model
 from src.save_model import save_model
 
-df = load_json()
 
-df = clean_data(df)
+def run_pipeline():
+    df = load_json()
+    df = clean_data(df)
+    df = feature_engineering(df)
+    model = train_model(df)
+    save_model(model)
 
-df = feature_engineering(df)
 
-model = train_model(df)
-
-save_model(model)
+if __name__ == "__main__":
+    run_pipeline()

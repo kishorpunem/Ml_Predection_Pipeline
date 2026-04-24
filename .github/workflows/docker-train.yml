@@ -1,0 +1,20 @@
+name: Train ML Model
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docker-train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: docker build -t ml_prediction_pipeline .
+
+      - name: Run Training Pipeline
+        run: docker run ml_prediction_pipeline
